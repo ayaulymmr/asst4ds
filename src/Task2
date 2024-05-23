@@ -1,0 +1,16 @@
+Start BFS from node A.
+Enqueue node A.
+Dequeue node A and mark it as visited.
+Enqueue adjacent nodes of A: C, B, D.
+Dequeue node C and mark it as visited.
+Enqueue adjacent nodes of C: A, B, D.
+Dequeue node B and mark it as visited.
+Enqueue adjacent nodes of B: A, C, E, G.
+Dequeue node D and mark it as visited.
+Enqueue adjacent nodes of D: C, A.
+Dequeue node E and mark it as visited.
+Enqueue adjacent nodes of E: G, F, B.
+Dequeue node G and mark it as visited.
+Enqueue adjacent nodes of G: F, B.
+Dequeue node F and mark it as visited.
+Finish BFS traversal. Answer:A, C, B, D, E, G, F.

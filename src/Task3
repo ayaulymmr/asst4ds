@@ -1,0 +1,26 @@
+Edinburgh to Glasgow: 70
+Edinburgh to Stirling: 50
+Edinburgh to Perth: 100
+Perth to Dundee: 60
+Glasgow to Stirling: 50
+Stirling to Perth: 40
+Choose the unvisited node with the smallest estimated distance from Edinburgh, which is currently Stirling with a distance of 50.
+Update the distances of the neighboring nodes of Stirling. For Perth, the new calculated distance from Edinburgh via Stirling is 90.
+Choose the next unvisited node with the smallest estimated distance from Edinburgh, which is currently Glasgow with a distance of 70.
+Update the distances of Glasgow's neighboring nodes. For Dundee, the new calculated distance from Edinburgh via Glasgow is 130.
+Choose the next unvisited node with the smallest estimated distance from Edinburgh, which is currently Perth with a distance of 90.
+Update the distances of Perth's neighboring nodes. For Dundee, the new calculated distance from Edinburgh via Perth is 150.
+Choose the next unvisited node with the smallest estimated distance from Edinburgh, which is currently Dundee with a distance of 150.
+
+Node	Distance from Edinburgh	Visited
+Edinburgh	  0	                   Yes
+Glasgow	      70	               Yes
+Stirling	  50	               Yes
+Perth	      90	               Yes
+Dundee	      150	               Yes
+
+The shortest path from Edinburgh to Dundee:
+
+Edinburgh -> Stirling -> Perth -> Dundee
+
+with a total distance of 150 miles.
